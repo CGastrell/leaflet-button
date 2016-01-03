@@ -3,7 +3,7 @@
 L.Control.Button = L.Control.extend({
     includes: L.Mixin.Events,
     options: {
-        position: 'topright',
+        position: 'topright'
     },
     initialize: function (label, options) {
         L.setOptions(this, options);
@@ -77,3 +77,5 @@ L.Control.Button = L.Control.extend({
 L.control.button = function (label, options) {
     return new L.Control.Button(label, options);
 };
+
+module.exports = L.Control.Button;
