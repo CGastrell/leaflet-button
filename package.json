@@ -1,0 +1,19 @@
+{
+  "name": "leaflet-button",
+  "version": "1.0.0",
+  "description": "Adds a generic button to map",
+  "main": "L.Control.Button.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cgastrell/leaflet-button"
+  },
+  "author": "Christian Gastrell <cgastrell@gmail.com> (https://github.com/CGastrell)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cgastrell/leaflet-button/issues"
+  },
+  "homepage": "https://github.com/cgastrell/leaflet-button"
+}
